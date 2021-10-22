@@ -1,0 +1,164 @@
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: lightblue;
+    margin: 0%;
+}
+li{
+    list-style: none;
+}
+
+
+header{
+    width:100%
+}
+
+nav{
+    background-image: linear-gradient(160deg, #ffab2d 0%, #ff744e 100%);
+    ;
+    overflow: hidden;
+    border-bottom: 0.5vh solid black;;
+    
+}
+
+.profile-img{
+    width: 20%;
+    margin-left: auto;
+    margin-top: auto;
+    transition: all ease-in-out 0.3s;
+}
+
+.profile-img:hover{
+    width: 21%;    
+}
+
+.image p{
+    position: relative;
+    vertical-align:top;
+    padding-left: 10 px;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    font-weight: bolder;
+    margin-top: -10px;
+}
+.image:hover p {
+    opacity: 1;
+}
+
+.intro {
+    display: inline-block;
+    vertical-align: top;
+    margin-top:10%
+        
+}
+
+
+.home{
+    text-decoration: none;
+    color: white;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 25px;
+    display: inline-block;
+    transition: all ease-in-out 0.3s;
+    font-weight: 400;
+}
+.home:hover{
+    background-color: lightblue;
+}
+
+
+.nav-bar{
+    font-size: 14pt;
+    float: right;
+    margin-top: 34px;
+}
+
+.nav-bar a{
+    color: black;
+    font-weight:550;
+}
+
+.nav-items{
+    display: inline-block;
+    padding-left: 20px;
+    margin-right: 40px;
+   
+}
+
+
+h1{
+    text-align: center;
+}
+
+.professional-history p{
+    text-align: center;
+}
+
+.about p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.about{
+    margin-top: -10vh;
+}
+
+.projects img{
+    width: 20%;
+    display: inline;
+    margin-left: 10%;
+}
+.exp{
+    color: yellow;
+}
+
+.side-bar {
+    
+    width: 140px; 
+    position: fixed; 
+    top: 0; 
+    right: 0;
+    margin-top: 200px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.95); 
+    padding-top: 10px;
+    
+  }
+  
+  .side-bar a {
+    color: white;
+    padding: 2px 8px 2px 16px;
+    text-decoration: none;
+    font-size: 20pt;
+    transition: all ease 0.2s;
+   
+  }
+  .side-bar a:hover {
+    color: #f1f1f1a9;
+    font-size: 22pt;
+  }
+  
+  .skills p{
+      color:orange;
+      margin-top: -10px;
+      
+  }
+
+.lang{
+    color: bisque;
+    text-align: left;
+}
+  .skills p:first-child{
+      margin-top: 10px;
+      margin-left:9px;
+  }
+
+  .skills{
+    margin-top: 5px;
+     border: 2px solid white;
+     padding-bottom: 20px;
+  }
