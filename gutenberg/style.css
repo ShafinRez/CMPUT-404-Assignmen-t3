@@ -9,6 +9,7 @@ ul{
 
 p{
     text-align: center ;
+    font-weight: 500;
 }
 
 h1{
@@ -19,6 +20,10 @@ h1{
 body{
     
     background-color: #f8f5de;
+    /* 
+    Used code to create vintage paper background effect from Eric Foster on codepen.io
+    url: https://codepen.io/efost/pen/rrjvkk
+      */
     background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
     box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8);
     color: rgba(0,0,0,0.5);
@@ -137,11 +142,6 @@ nav ul{
     height: 25px;
 }
 
-.searchbox form{
-    display:flex;
-    width: 20%;
-}
-
 .info{
     display: flex;
     padding-bottom: 40px;
@@ -159,4 +159,33 @@ nav ul{
 
 #download{
     display: flex;
+}
+
+#toggle-menu{
+    display: none;
+}
+.drop-icon{
+    display: none;
+}
+#tm{
+    display: none;
+}
+
+.searchbox{
+    display: inline-block;
+}
+
+.donatelink{
+    margin-top: 5%;
+    margin-left: -17%;
+    
+}
+.donatelink p{
+    text-align:left;
+}
+
+.page_content span{
+    display: inline-block;
+    text-align: left;
+    
 }
